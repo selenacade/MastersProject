@@ -1,0 +1,68 @@
+/*body {background-color: #a1c2e1;}
+header {top: 0; background-color: #000036; height: 365px;} */
+
+img {max-width: 100%;}
+
+.frame {position: relative; max-width: 450px; margin: 2% auto; text-align: center;}
+
+.grid {display: grid; grid-template-columns: auto auto auto; grid-gap: 20px;}
+
+div.gallery {border: 1px solid #ccc;}
+  
+div.gallery:hover {border: 1px solid #777;}
+  
+div.gallery img {width: 100%; height: auto; float: left;}
+  
+div.desc {padding: 15px; text-align: center;}
+  
+* {box-sizing: border-box;}
+  
+.responsive {padding: 0 6px; float: left; width: 24.99999%;}
+  
+.clearfix:after {content: ""; display: table; clear: both;}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+/* The navigation menu */
+.navbar { background-color: #333;}
+  
+/* Navigation links */
+.navbar a {float: left; font-size: 16px; color: white; text-align: center; padding: 26px 30px; text-decoration: none;}
+  
+/* The subnavigation menu */
+.subnav {float: left; overflow: hidden;}
+  
+/* Subnav button */
+.subnav .subnavbtn {font-size: 16px; border: none; outline: none; color: white; padding: 2px 2px; background-color: inherit; font-family: inherit; margin: 0;}
+  
+/* Add a red background color to navigation links on hover */
+.navbar a:hover, .subnav:hover .subnavbtn {background-color: rgba(200, 199, 199, 0.468);}
+  
+/* Style the subnav content - positioned absolute */
+.subnav-content {display: none; position: absolute; left: 2; background-color: rgb(139, 139, 139); width: 25%; z-index: 1;}
+  
+/* Style the subnav links */
+.subnav-content a {float: left; color: white; text-decoration: none;}
+  
+/* Add a grey background color on hover */
+.subnav-content a:hover {background-color: #eee; color: black;}
+  
+/* When you move the mouse over the subnav container, open the subnav content */
+.subnav:hover .subnav-content {display: block;}
+  
+main {background-color: #ceddeb; padding: 4em; margin: 2em; font-size: 1.2em; border-radius: 8px 4px;}
+
+h3 {text-align: center; padding-top: 1.5em;}
+
+h2, h4 {padding-top: 1.5em;}
+
+#contact {text-align: center; font-family: verdana, arial, sans-serif;}
+
+#contact a {text-align: center; text-decoration: none;}
+
+.map {border: 8px solid #000;}
