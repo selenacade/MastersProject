@@ -8,7 +8,7 @@ img {max-width: 100%;}
 /*Style rules for mobile viewport
 
     /*Navigation Menu */
-	body {margin: 0; font-family: Arial;}
+    body {margin: 0; font-family: Arial;}
 
     .topnav {overflow: hidden; background-color: #333;}
 
@@ -23,7 +23,7 @@ img {max-width: 100%;}
     /*Mobile Information */
     .mobile {display: block;}
 
-	.tablet-desktop {display: none;}
+     .tablet-desktop {display: none;}
 
     /*Main*/
     h2, h4 {font-size: .7em;}
