@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Project | Survey Data</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+	<meta name="viewport" content="width-device-width, initial-scale=1">
+</head>
+
+<body>
+	<div>
+		<div class="topnav" id="myTopnav">
+			<a href="index.html" class="active">Home</a>
+			<a href="surveys.html">Surveys</a>
+			<a href="retention.html">Retention</a>
+			<a href="program.html">Summer Program</a>
+			<a href="contact.html">Contact Me</a>
+			<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+		  </div>
+
+		<header>
+			<a href="index.html"></a>
+		</header>
+
+		<main>
+			<div>
+				<h1>Pre and Post Visit Surveys</h1>
+				<article>
+					<h2>Overview of Campus Visits</h2>
+					<p> In my role as a graduate assistant, I play a key part in facilitating campus tours for middle and high school students. During their visit, they get to experience dining at our hall, gather valuable insights about college life, and gain a deeper understanding of Grand Valley State University. Following the tour, students engage in an interactive session with a panel of GVSU peers. Here, they can delve into various topics such as college admissions, scholarships, campus happenings, navigating high school and college transitions, selecting majors, and much more.</p>
+
+					<h2>Overview of Pre and Post Visit Surveys</h2>
+					<p>Once the tour is confirmed for the school, students are promptly sent a pre-visit survey containing a series of questions, all of which are detailed in the Power BI report below. Following their participation in the campus tour and student panel, students are invited to complete a post-visit survey with identical questions. The primary objective of these surveys is to gauge the extent to which students are acquiring and comprehending information during their campus visit.</p>
+					
+					<h2>Hypothesis for Pre and Post-Visit Surveys</h2>
+					<p>Prior to examining the data, my hypothesis is that responses on the pre-visit survey will differ from those on the post-visit survey. The post-visit inquiries are expected to exhibit reduced uncertainty and greater clarity in comparison to the pre-visit questions. For instance, any responses indicating "Disagree," "Strongly Disagree," or "Undecided" on the pre-visit survey should transition to "Agree" or "Strongly Agree" on the post-visit survey for corresponding questions. Additionally, I aim to ascertain whether the data reflects the degree to which students retain the information provided throughout the day. As the data is confidential, all information will be kept anonymous.</p>
+				</article>
+				
+				<h2>Middle School Comparison Power BI Report</h2>
+				<div class="container-report">
+					<iframe class="responsive-iframe" title="MS Survey Comparison - Project" src="https://app.powerbi.com/view?r=eyJrIjoiOWNiMjFlYTgtNjgzYy00YjQwLTk2NzgtYTgxNjk4ZDU3YTg1IiwidCI6Ijk0ZWM1MWExLTJiMWItNGNkNS05MWNiLTAxNmQxNzgzYWY0OCIsImMiOjN9" ></iframe>
+				</div>
+
+				<h2>High School Comparison Power BI Report</h2>
+				<div class="container-report">
+					<iframe class="responsive-iframe" title="HS Survey Comparison- Project" src="https://app.powerbi.com/view?r=eyJrIjoiM2RmOGUwYzktMDRjYS00MmMwLWEyNzEtN2Y2NGI4OGZkNGQyIiwidCI6Ijk0ZWM1MWExLTJiMWItNGNkNS05MWNiLTAxNmQxNzgzYWY0OCIsImMiOjN9"></iframe>
+				</div>
+
+				<article>
+					<h2>Conclusion</h2>
+					<p class="mobile">After gathering the data together for both middle school and high school, I noticed that the data is skewed. There are more students completing the pre-visit survey than students completing the post-visit survey. This unfortantely has made it difficult to make any definite conclusions. However, this has given me some actionable items to bring back to my team.</p>
+					<p class="tablet-desktop">Upon consolidating the data from both middle school and high school cohorts, I observed a skew in the distribution. There is a higher participation rate in the pre-visit survey compared to the post-visit survey. Regrettably, this imbalance has hindered the ability to draw definitive conclusions. Nonetheless, it has provided actionable insights to share with my team, outlined below.</p>
+					<ul class="tablet-desktop">
+						<li>The initial recommendation I'll present to the team is to encourage each school to complete the post-visit surveys before their departure. This approach guarantees timely receipt of the results. In instances where time is constrained before their departure, I propose sending a reminder email prompting them to complete the form promptly.</li>
+						<li>During data analysis, it became apparent that implementing a dropdown menu for selecting the school would streamline the process compared to having students manually input their school. In both survey sets, significant data preprocessing was required. The open-ended question, "What school do you attend?" led to varied responses, with some students abbreviating the school name while others provided incomplete names.</li>
+						<li>Furthermore, I propose that following each visit, a team member should verify that all surveys have been completed by every student. Historically, surveys have been checked sporadically, often not allowing sufficient time to follow up with schools for reminders.</li>
+					</ul>
+					<p class="tablet-desktop">By implementing these three actionable measures, I am confident that in the future, we will achieve a more accurate comparison between the pre and post-surveys for both middle and high school students. Despite the skewed data, the team is fully committed to facilitating the learning process for middle and high school students regarding college. Analysis indicates that students who initially expressed uncertainty or disagreement with certain questions tended to alter their perspectives following the campus visit. This suggests that the information conveyed during the visit and student panel significantly enhances students' understanding.</p>
+				</article>
+			</div>
+		</main>
+		
+		<div class="blockcode">
+			<footer class="shadow">
+			  <div
+				class="d-flex justify-content-between align-items-center mx-auto py-4 flex-wrap"
+				style="width: 80%"
+			  >
+				<a href="index.html" class="d-flex align-items-center p-0 text-dark">
+				  <span class="ms-4 h5 font-weight-bold">Selena Cade</span>
+				</a>
+				<small>&copy; Copyright, 2024. All rights reserved.</small>
+				<div>
+				  <button class="btn btn-dark btn-flat p-2">
+					<i class="fa fa-facebook"></i>
+				  </button>
+				  <button class="btn btn-dark btn-flat p-2">
+					<i class="fa fa-twitter"></i>
+				  </button>
+				  <button class="btn btn-dark btn-flat p-2">
+					<i class="fa fa-instagram"></i>
+				  </button>
+				</div>
+			  </div>
+			</footer>
+		</div>
+	
+	</div>
+	
+	<script>
+		function myFunction() {
+		  var x = document.getElementById("myTopnav");
+		  if (x.className === "topnav") {
+			x.className += " responsive";
+		  } else {
+			x.className = "topnav";
+		  }
+		}
+	</script>
+
+</body>
+</html>
